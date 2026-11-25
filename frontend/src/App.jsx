@@ -13,7 +13,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/greet",
+        "http://13.239.12.95:5000/api/greet",
         {
           method: "POST",
           headers: {
